@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 // healthcheck
 router.get('/health', (req, res) => {
-  res.status('200').send("Status: ABB3 Demo 2");
+  res.status('200').send("Status: ABB3 demo 2/24/2022");
 });
 
 
